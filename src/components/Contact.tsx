@@ -54,7 +54,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Jodhpur, India',
+      value: 'Barmer, India',
       href: '#',
       color: 'purple'
     }

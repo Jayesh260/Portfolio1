@@ -9,7 +9,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
   const highlights = [
     'AI Research Intern at Samsung R&D',
     'Cybersecurity Trainee at PwC India',
-    'B.Tech CSE - Cybersecurity, CGPA: 9.0',
+    'B.Tech CSE - Cybersecurity, CGPA: 8.9',
     'Multiple Hackathon Finalist',
     'Research Publications in AI & Healthcare'
   ];
@@ -62,7 +62,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
               <p className={darkMode ? 'text-gray-300' : 'text-gray-600'}>
                 B.Tech in CSE - Cybersecurity, Class of 2025
               </p>
-              <p className="text-cyan-400 font-medium">CGPA: 9.0</p>
+              <p className="text-cyan-400 font-medium">CGPA: 8.9</p>
             </div>
 
             <div className={`p-6 rounded-xl backdrop-blur-sm border ${
